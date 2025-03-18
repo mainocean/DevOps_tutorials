@@ -8,7 +8,7 @@
 
 Hello. Welcome to my collection of DevOps tutorials! This repository is designed to guide my through essential DevOps concepts, tools, and workflows, providing practical insights and hands-on examples. Whether you're a beginner or an experienced practitioner, there's something here for everyone.
 
-[https://www.youtube.com/channel/UCRv1zipU1nDYvskBlDskdcQ/content)
+https://www.youtube.com/channel/UCRv1zipU1nDYvskBlDskdcQ/content
 
 # Support
 
@@ -21,8 +21,6 @@ Hello. Welcome to my collection of DevOps tutorials! This repository is designed
 # Contents
 
 📚 - [Lessons](docs/contents.md)
-
-```
 
 # Social
 
