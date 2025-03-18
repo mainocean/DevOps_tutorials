@@ -7,7 +7,7 @@ set -x
 set -e
 
 # To run, execute: ./build.sh go-app v1
-USERNAMR="${USERNAMR:-aputra}"
+USERNAMR="${USERNAMR:-mainocean}"
 LESSON=$(basename $(pwd))
 DOCKERFILE="${DOCKERFILE:-Dockerfile}"
 APP_DIR="$1"
