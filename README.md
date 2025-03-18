@@ -6,7 +6,7 @@
 
 # DevOps tutorials
 
-Hi. In this video I setting up a Cluster in GKE. To raise a cluster in Google Kubernetes Engine, i follow these general steps: installing SDK, kubect. Raising a cluster in Google Kubernetes Engine (GKE) involves creating and configuring a Kubernetes cluster on Google's cloud infrastructure. It's a process that allows you to deploy, manage, and scale containerized applications efficiently. The steps typically include enabling the Kubernetes API, choosing your cluster type (zonal or regional), setting the desired configurations, and creating the cluster through the Google Cloud Console or command-line tools like gcloud. Once your cluster is set up, you can connect to it and deploy your workloads using Kubernetes manifests.
+Hello. Welcome to my collection of DevOps tutorials! This repository is designed to guide my through essential DevOps concepts, tools, and workflows, providing practical insights and hands-on examples. Whether you're a beginner or an experienced practitioner, there's something here for everyone.
 
 https://www.youtube.com/watch?v=I4UKAeKV4WQ
 
