@@ -12,7 +12,7 @@ https://www.youtube.com/channel/UCRv1zipU1nDYvskBlDskdcQ/content
 
 # Support
 
-🔴 - To support my channel 
+🔴 - To support my channel mainoceanm@gmail.com
 
 # Playlists
 
