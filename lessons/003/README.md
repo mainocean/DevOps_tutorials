@@ -1,6 +1,6 @@
 # Deploying a Static HTML Site with Docker and Nginx
 
-Hello, Guys.To deploy a piece of software, you need a virtual machine image (VM image) to store the software with its dependencies (libraries, interpreters, sub-packages, compilers, extensions, and so on). However, these images are large and unwieldy, time-consuming to build and maintain, fragile to operate, slow to download and deploy, and vastly inefficient in performance and resource footprint.
+Hello, Guys. To deploy a piece of software, you need a virtual machine image (VM image) to store the software with its dependencies (libraries, interpreters, sub-packages, compilers, extensions, and so on). However, these images are large and unwieldy, time-consuming to build and maintain, fragile to operate, slow to download and deploy, and vastly inefficient in performance and resource footprint.
 In order to solve this problem, the tech industry borrowed an idea from the shipping industry, the container: a standard packaging and distribution format that is generic and widespread, enabling the increased carrying capacity, lower costs, economies of scale, and ease of handling. The container format contains everything the application needs to run, baked into an image file that can be executed by a container runtime.
 The most popular tool for building and running containers is Docker.
 
