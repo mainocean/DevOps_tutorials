@@ -6,12 +6,15 @@ If you just compare the prices of compute resources, the difference can be signi
 You can find tutorial [here](https://www.youtube.com/watch?v=P0FuqXlS_ow&ab_channel=DevOps).
 
 # COMMANDS:
+```
 terraform init
 terraform plan
 terraform apply
 gcloud components install gke-gcloud-auth-plugin
 gcloud container clusters get-credentials demo --zone us-central1-a --project mythic-handler-454014-e6
+
 kubectl get svc
 kubectl get nodes
 kubectl auth can-i "*" "*"
 terraform destroy
+```
