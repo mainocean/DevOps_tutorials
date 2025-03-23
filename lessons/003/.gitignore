@@ -33,3 +33,72 @@ override.tf.json
 .terraformrc
 terraform.rc
 my-key.pem
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore build and output directories
+dist/
+build/
+
+# Ignore sensitive files
+.env
+secrets.json
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated files
+*.class
+*.exe
+*.dll
+*.pyc
+*.o
+*.out
+
+# Ignore environment files containing sensitive credentials
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# Ignore secret configuration files
+secrets.json
+config/secrets.yml
+
+# Ignore AWS credentials files
+.aws/credentials
+.aws/config
+
+# Ignore key files
+*.pem
+*.key
+id_rsa*
+id_dsa*
+
+# Ignore sensitive backup files
+*.bak
+*.tmp
+
+# Ignore logs
+*.log
+logs/
+debug.log
+
+# Ignore build outputs
+dist/
+build/
+coverage/
+
