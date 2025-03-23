@@ -1,20 +1,14 @@
 # Deploying a Static HTML Site with Docker and Nginx
+![alt text](image.png)
+Hello, Guys. Today the tech industry borrowed an idea from the shipping industry, the container: a standard packaging and distribution format that is generic and widespread, enabling the increased carrying capacity, lower costs, economies of scale, and ease of handling. It`s a Docker. So I create Docker Image of my HTML site on DockerHub.
 
-Hello, Guys. To deploy a piece of software, you need a virtual machine image (VM image) to store the software with its dependencies (libraries, interpreters, sub-packages, compilers, extensions, and so on). However, these images are large and unwieldy, time-consuming to build and maintain, fragile to operate, slow to download and deploy, and vastly inefficient in performance and resource footprint.
+To deploy a piece of software, you need a virtual machine image (VM image) to store the software with its dependencies (libraries, interpreters, sub-packages, compilers, extensions, and so on). However, these images are large and unwieldy, time-consuming to build and maintain, fragile to operate, slow to download and deploy, and vastly inefficient in performance and resource footprint.
+
 In order to solve this problem, the tech industry borrowed an idea from the shipping industry, the container: a standard packaging and distribution format that is generic and widespread, enabling the increased carrying capacity, lower costs, economies of scale, and ease of handling. The container format contains everything the application needs to run, baked into an image file that can be executed by a container runtime.
 The most popular tool for building and running containers is Docker.
 
-You can find tutorial [here](https://www.youtube.com/watch?v=P0FuqXlS_ow&ab_channel=DevOps).
+You can find tutorial [here](https://www.youtube.com/watch?v=wgMnbZw5Rh8&ab_channel=DevOps).
 
-0:09 - Intro
-0:33 - Create a Directory for the Website
-0:50 - Let's create a HTML application
-0:55 - Create a file called Dockerfile
-1:30 - Build the Docker Image for the HTML Server
-1:46 - Let's create a Repository of our image on Docker Hub
-3:04 - Upload our Docker Image from Docker Hub to PC
-3:19 - Run the Docker Container
-3:26 - Test our site http://localhost:8080/
 
 # console commands:
 ```
@@ -46,8 +40,6 @@ docker restart modest_haslett
 curl http://localhost:8080/
 ```
 # sites:
-https://shorturl.at/LrmhM
-https://hub.docker.com/
-
-Photo by Kelly L: 
-https://www.pexels.com/photo/fully-loaded-cargo-ship-sailing-on-sea-12530465/
+Medium.com:   https://shorturl.at/LrmhM \
+DockerHub:    https://hub.docker.com \
+Photo by Kelly L: https://shorturl.at/QSnCo
