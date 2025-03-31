@@ -26,5 +26,5 @@ https://www.youtube.com/channel/UCRv1zipU1nDYvskBlDskdcQ/content
 
 🎥 - [YouTube](https://www.youtube.com/channel/UCRv1zipU1nDYvskBlDskdcQ/content)  
 💼 - [LinkedIn](https://www.linkedin.com/in/alex-kochenko-732900177/)  
-🛠️ - [Twitter/X](https://x.com/)  
+🛠️ - [Twitter/X](https://x.com/mainoceanm)  
 📨 - mainoceanm@gmail.com
