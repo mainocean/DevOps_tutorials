@@ -35,9 +35,10 @@ docker tag local-image:tagname new-repo:tagname
 docker tag html-site:latest mainoceanm895/html-site:v1.0
 docker push new-repo:tagname
 docker push mainoceanm895/html-site:v1.0
+docker pull mainoceanm895/html-site:v1.0 #pull from DockerHub
 docker run -d -p 8080:80 mainoceanm895/html-site:v1.0
 docker restart modest_haslett
-
+start http://localhost:8080/
 curl http://localhost:8080/
 ```
 # sites:
