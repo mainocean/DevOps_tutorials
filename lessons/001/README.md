@@ -1,6 +1,6 @@
 # How to Create GKE Cluster Using TERRAFORM from Scratch?
 
-[YouTube Tutorial](https://youtu.be/)
+[YouTube Tutorial](https://www.youtube.com/@devopseng/videos)
 
 ## Set Up Default Credentials
 ```bash
