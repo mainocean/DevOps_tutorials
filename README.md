@@ -1,6 +1,6 @@
 ﻿<p dir="auto">
   <a target="_blank" rel="noopener noreferrer" href="/mainocean/blob/main/profile_pic.png">
-    <img src="https://media.licdn.com/dms/image/v2/D4E16AQHqSJ60mFunew/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1723568090509?e=1746662400&v=beta&t=3_F2iKrQ0dQtDa6g-gBTyaMPp5vPe3QsIiS6jjSJIHA" alt="My profile picture" style="max-width: 100%;">
+    <img src="https://media.licdn.com/dms/image/v2/D4E16AQHqSJ60mFunew/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1723568090509?e=1752710400&v=beta&t=61Yj4T1f7jNBDsHXvvDUcQSnFR6XFFZ7JMVp-U4oQPA" alt="My profile picture" style="max-width: 100%;">
   </a>
 </p>
 
