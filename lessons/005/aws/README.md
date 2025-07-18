@@ -1,4 +1,4 @@
-# AWS CLI v2
+# Full production setup using Docker, EC2, RDS, Route 53, and Terraform
 
 This bundle contains a built executable of the AWS CLI v2.
 
