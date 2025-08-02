@@ -3,7 +3,7 @@ set -e
 
 # Variables
 AWS_REGION="eu-central-1"
-AWS_ACCOUNT_ID="897729123748"
+AWS_ACCOUNT_ID="89735666yourID"
 REPO_NAME="django-ec2-complete"
 IMAGE_NAME="django-ec2-complete:latest"
 ECR_URI="$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$REPO_NAME"

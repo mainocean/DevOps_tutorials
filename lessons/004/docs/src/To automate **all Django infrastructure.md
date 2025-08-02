@@ -85,8 +85,6 @@ echo "🛢️ RDS Endpoint: $(terraform output -raw rds_endpoint)"
 ### 📁 Directory Structure
 
 ```
-bash
-CopyEdit
 project-root/
 │
 ├── Dockerfile
@@ -108,8 +106,6 @@ project-root/
 Add these to `main.tf` or `outputs.tf`:
 
 ```hcl
-hcl
-CopyEdit
 output "ec2_public_ip" {
   value = aws_instance.web.public_ip
 }
@@ -127,8 +123,6 @@ output "rds_endpoint" {
 After deployment:
 
 ```bash
-bash
-CopyEdit
 ssh -i your-key.pem ec2-user@<public_ip>
 docker exec -it <django_container_id> bash
 python manage.py migrate

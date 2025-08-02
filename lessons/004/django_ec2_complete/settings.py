@@ -20,10 +20,10 @@ env = environ.Env(
     DEBUG=(bool, False)
 )
 # Set the project base directory
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Take environment variables from .env file
-environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
+environ.Env.read_env(os.path.join(BASE_DIR, '.env.local'))
 
 
 # Quick-start development settings - unsuitable for production
@@ -84,15 +84,22 @@ WSGI_APPLICATION = 'django_ec2_complete.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': os.getenv('DB_NAME'),
+#         'USER': os.getenv('DB_USER_NM'),
+#         "PASSWORD": os.getenv('DB_USER_PW'),
+#         "HOST": os.getenv('DB_IP'),
+#         "PORT": os.getenv('DB_PORT'),
+#     }
+# }
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.getenv('DB_NAME'),
-        'USER': os.getenv('DB_USER_NM'),
-        "PASSWORD": os.getenv('DB_USER_PW'),
-        "HOST": os.getenv('DB_IP'),
-        "PORT": os.getenv('DB_PORT'),
-    }
+ "default": {
+ "ENGINE": "django.db.backends.sqlite3",
+ "NAME": BASE_DIR / "db.sqlite3",
+ }
 }
 
 

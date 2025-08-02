@@ -18,7 +18,7 @@ This project demonstrates how to deploy a Django web application in production o
 
 ### 📚 Documentation
 Full documentation is available here:  
-👉 [Project Docs on GitHub](https://github.com/mainocean/django_ec2_complete/tree/f9ce90d2761e58b8acdc35e07cca718d4990730b/docs/src)
+👉 [Project Docs on GitHub](https://github.com/mainocean/DevOps_tutorials/tree/main/lessons/005/docs)
 
 This includes:
 
