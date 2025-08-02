@@ -24,7 +24,7 @@ Clone repo from Github:
 
 ```Ubuntu
 git init
-git clone https://github.com/mainocean/django_ec2_complete.git
+git clone https://github.com/mainocean/DevOps_tutorials/tree/main/lessons/004
 ```
 Check status:
 
