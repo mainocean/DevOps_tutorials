@@ -24,7 +24,7 @@ Clone repo from Github:
 
 ```Ubuntu
 git init
-git clone https://github.com/mainocean/DevOps_tutorials/tree/main/lessons/004
+git clone https://github.com/mainocean/DevOps_tutorials.git
 ```
 Check status:
 
