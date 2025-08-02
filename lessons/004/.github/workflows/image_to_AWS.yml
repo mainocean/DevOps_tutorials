@@ -1,50 +1,50 @@
-# This month yet dont use, I have limit free tier trafic data 1Gb AWS
+This month yet dont use, I have limit free tier trafic data 1Gb AWS
 
-# name: Deploy image to AWS ECR
+name: Deploy image to AWS ECR
 
-# # Run this workflow every time a new tag is created
-# on: 
-#   create:
-#     tags:
-#       - .*
+# Run this workflow every time a new tag is created
+on: 
+  create:
+    tags:
+      - .*
 
-# jobs:
-#   build-and-push:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v4
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-#       - name: Configure AWS credentials
-#         uses: aws-actions/configure-aws-credentials@v4
-#         with:
-#           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-#           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-#           aws-region: eu-central-1
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
 
-#       - name: Create .env file
-#         run: |
-#           echo "DEBUG=False" > .env
-#           echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> .env
-#           echo "DATABASE_URL=postgres://masteruser:${{ secrets.DB_PASSWORD }}@my-django-rds.cf00s4o88wnc.eu-central-1.rds.amazonaws.com:5432/djangodb" >> .env
+      - name: Create .env file
+        run: |
+          echo "DEBUG=False" > .env
+          echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> .env
+          echo "DATABASE_URL=postgres://masteruser:${{ secrets.DB_PASSWORD }}@my-django-rds.cf00s4o88wnc.eu-central-1.rds.amazonaws.com:5432/djangodb" >> .env
 
-#       - name: Debug files
-#         run: ls -la
+      - name: Debug files
+        run: ls -la
 
-#       - name: Log in to Amazon ECR
-#         run: |
-#           aws ecr get-login-password --region eu-central-1 | \
-#           docker login --username AWS --password-stdin 897729123748.dkr.ecr.eu-central-1.amazonaws.com
+      - name: Log in to Amazon ECR
+        run: |
+          aws ecr get-login-password --region eu-central-1 | \
+          docker login --username AWS --password-stdin 897729123748.dkr.ecr.eu-central-1.amazonaws.com
 
-#       - name: Build Docker image
-#         run: |
-#           docker build -t django-ec2-complete .
+      - name: Build Docker image
+        run: |
+          docker build -t django-ec2-complete .
 
-#       - name: Tag Docker image
-#         run: |
-#           docker tag django-ec2-complete:latest \
-#             897729123748.dkr.ecr.eu-central-1.amazonaws.com/django-ec2-complete:${GITHUB_REF_NAME}
+      - name: Tag Docker image
+        run: |
+          docker tag django-ec2-complete:latest \
+            897729123748.dkr.ecr.eu-central-1.amazonaws.com/django-ec2-complete:${GITHUB_REF_NAME}
 
-#       - name: Push Docker image
-#         run: |
-#           docker push 897729123748.dkr.ecr.eu-central-1.amazonaws.com/django-ec2-complete:latest
+      - name: Push Docker image
+        run: |
+          docker push 897729123748.dkr.ecr.eu-central-1.amazonaws.com/django-ec2-complete:latest
