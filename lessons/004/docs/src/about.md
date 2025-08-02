@@ -8,6 +8,8 @@
 
 This project demonstrates how to deploy a Django web application in production on AWS with:
 
+✅ Containerize with Nginx, Postgresql & Gunicorn
+
 ✅ A Dockerized Django app on EC2
 
 ✅ A PostgreSQL database hosted on Amazon RDS
@@ -22,7 +24,7 @@ Clone repo from Github:
 
 ```Ubuntu
 git init
-git clone https://github.com/mainocean/django_ec2_complete.git
+git clone https://github.com/mainocean/DevOps_tutorials.git
 ```
 Check status:
 
@@ -292,7 +294,7 @@ http://localhost/
 
 ### 📚 Documentation
 Full documentation is available here:  
-👉 [Project Docs on GitHub](https://github.com/mainocean/django_ec2_complete/tree/f9ce90d2761e58b8acdc35e07cca718d4990730b/docs/src)
+👉 [Project Docs on GitHub](https://github.com/mainocean/DevOps_tutorials/tree/main/lessons/004/docs)
 
 This includes:
 
@@ -381,26 +383,6 @@ django_ec2_complete/                  # Root of the project
 ├── requirements.txt                  # Python dependencies
 
 ```
-### 🚀  Deployment
-1️⃣ Start a Django Project
-
-2️⃣ Dockerize the App with docker-compose
-
-3️⃣ Push to AWS ECR
-
-4️⃣ Deploy to EC2 with Terraform
-
-  ✅ Launch:
-
- - EC2 instance
-
- - IAM Role
-
- - Security Groups
-
- - Subnets + VPC
-
- - ECR-authenticated Docker container
 
 ###  🚀 To deploy
 
@@ -408,17 +390,6 @@ django_ec2_complete/                  # Root of the project
  terraform init
  terraform apply
  ```
-
-✅ Final Checklist
- - Django project running in Docker
-
- - Hosted on AWS EC2 via Terraform
-
- - Secure PostgreSQL via RDS
-
- - Custom domain on Route 53
-
- - SSL certificate via ACM
 
 ### 🧹 Cleanup
 To destroy resources:
